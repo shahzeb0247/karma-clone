@@ -1,0 +1,1030 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: roboto, sans-serif !important; */
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: #ffffff;
+}
+.head{
+    height: 54px;
+    background-color: #262626;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+
+
+
+/* Logo*/
+.head-logo a{
+    text-decoration: none;
+    color: white;
+   font-weight: bold;
+   font-size: 22px;
+
+}
+.head-logo a:hover{
+    color: white;
+}
+.head-logo a span{
+    color:#6f9a37 ;
+}
+/* Button*/
+.head-btn a{
+    color: white;
+    text-decoration: none;
+    background-color:#6f9a37;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.head-btn a:hover{
+    color: white;
+    background-color:#639720;
+}
+header .head-logo{
+    margin-right: auto;
+}
+
+
+
+/* Main Section*/
+header nav{
+    z-index: 999;
+    width: 100%;
+    background-color: #fffafa;
+    box-shadow: 0px 0px 8px 0px rgb(228, 227, 227);
+    padding: 1rem 0rem !important;
+ 
+}
+
+header .navbar-collapse{
+    width: 100% !important;
+    justify-content: center;
+}
+
+header .navbar-nav li a{
+    font-size: 15px;
+    color: #545454;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+header .navbar-nav li a:hover{
+    color: #2A74ED;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    border: none;
+    box-shadow: 2px 5px 8px 8px rgb(228, 227, 227);
+}
+.dropdown-menu a{
+    color: #999;
+    transition: all 0.2s ease;
+}
+.dropdown-menu a:hover{
+    color: #2A74ED;
+    background-color: white !important;
+}
+
+.Sec-01-Content{
+    text-align: center;
+    padding-top: 240px;
+}
+
+.Sec-01-Content .heading{
+    font-size: 50px;
+    font-weight: 350;
+    margin-bottom: 20px;
+}
+.Sec-01-Content .subtitle{
+    font-size: 18px;
+}
+.button-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button-group .btn-purchase{
+    background-color: #2A74ED;
+    display: block;
+    max-width: auto;
+    color: white;
+    margin: 0 auto 0;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 15px 50px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+.button-group .btn-purchase:hover{
+     background-color: white; 
+    border: 1px solid  #2A74ED;
+    color:#2A74ED;
+} 
+.button-group p{
+    margin-top: 30px;
+}
+#v-demo{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #2A74ED;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #2A74ED;
+    transition: border 0.5s ease;
+}
+#v-demo:hover{
+    border: none;
+}
+
+/* Section 1 End*/
+
+/* Reveal Effect*/
+.reveal{
+    position: relative;
+    transform: translateY(90px);
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+/*Section 2*/
+.Sec-02 {
+    width: 100%;
+    background-color:#f6f9ff ;
+    height: 800px;
+    margin-top: 30px;
+}
+.Sec-02 .title{
+    font-weight: 350;
+}
+.Sec-02 .title span{
+    font-weight: 400;
+}
+.text-sec{
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.slider-sec{
+    padding-top: 80px;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.slider-sec .sec1,.sec2,.sec3{
+    flex: 27%;
+    max-width: 27%;
+    text-align: center;
+   
+}
+.slider-sec .img{
+    height: auto;
+    width: 100%;
+    transition: all 0.3s ease;
+    /* transition: transform 2s ease, opacity 2s ease; */
+}
+.slider-sec .img:hover{
+    opacity: 70%;
+    transform: rotate(-25deg);
+    cursor: pointer;
+}
+.slider-sec p{
+    color: #999;
+}
+.sec1 h5,p, .sec2 h5,p, .sec3 h5,p{
+    margin-top: 20px;
+    padding-top: 10px ;
+}
+
+/*Section 3*/
+.Sec-03{
+    margin-top: 40px;
+}
+.Sec-03 .row h1{
+    font-size: 3rem;
+    font-weight: 350;
+    margin-bottom: 0px;
+    padding-bottom: 20px !important;
+}
+
+.box .design-1{
+    width: 90%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 30px 30px rgba(196, 194, 194,0.2);
+    /* transition: all 2s ease; */
+}
+.box .design-1 img{
+    width: 100%;
+}
+.box .design-1 #img-1{
+    transition: transform 5s ease;
+    overflow: hidden;
+}
+.box .design-1 #img-1:hover{
+    transform: translateY(-84%) scale(1.1);
+    overflow: hidden;
+}
+
+.box .design-1 #img-2{
+    transition: transform 5s ease;
+    overflow: hidden;
+}
+.box .design-1 #img-2:hover{
+    transform: translateY(-81%) scale(1.1);
+    overflow: hidden;
+}
+
+.box .design-1 #img-3{
+    transition: transform 5s ease;
+    overflow: hidden;
+}
+.box .design-1 #img-3:hover{
+    transform: translateY(-78%) scale(1.1);
+    overflow: hidden;
+}
+
+.box .design-1 #img-4{
+    transition: transform 5s ease;
+    overflow: hidden;
+}
+.box .design-1 #img-4:hover{
+    transform: translateY(-86%) scale(1.1);
+    overflow: hidden;
+}
+
+.box .design-1 #img-5{
+    transition: transform 5s ease;
+    overflow: hidden;
+}
+.box .design-1 #img-5:hover{
+    transform: translateY(-88%) scale(1.1);
+    overflow: hidden;
+}
+
+.box .design-1 #img-6{
+    transition: transform 5s ease;
+    overflow: hidden;
+}
+.box .design-1 #img-6:hover{
+    transform: translateY(-80%) scale(1.1);
+    overflow: hidden;
+}
+
+.box{
+    margin-bottom: 30px;
+    
+}
+.box p{
+    padding: 15px;
+    color: #545454;
+}
+.blur-box{
+    transition: transform .4s ease;
+}
+.blur-box:hover{
+    transform: translateY(-10px);
+}
+.box .blur-box img{
+    height: 100%;
+    overflow: hidden;
+} 
+
+
+
+/*  Section 4  */
+.Sec-04{
+    width: 100%;
+    background-color:#f6f9ff ;
+    height: auto;
+    padding-bottom: 60px;
+}
+.Sec-04 .list{
+    list-style-type: disc;
+    list-style-position: inside;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.Sec-04 .list li{
+    margin-left: 10px;
+    padding-right: 10px;
+}
+.Sec-04 h1{
+    font-weight: 350;
+}
+.f-box{
+    margin-bottom: 25px;
+    height: 270px;
+    
+}
+.f-box .box{
+    padding: 25px 10px;
+    width: 95%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 30px 30px rgba(196, 194, 194,0.2);
+}
+.f-box .svg{
+    width: 100%;
+    height: 50px;
+}
+.f-box .svg svg{
+    width: auto;
+    height: 48px;
+    transition: all 0.5s ease;
+}
+.f-box .svg svg:hover{
+    transform: translate(10px);
+    height: 44px;
+}
+.f-box .box h5{
+    font-size: 22px;
+}
+.f-box .box p{
+    color: #999;
+}
+
+/* Section 5*/
+.Sec-05{
+    margin: 60px 0px;
+}
+.Sec-05 h1{
+    font-weight: 300;
+}
+.sec-05-slider .row{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   left: 0;
+}
+/* Swiper */
+.swiper{
+    margin: 60px auto;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.swiper .swiper-slide{
+    height: 400px;
+    width: 60%;
+    margin: 0px 15px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+.swiper .swiper-slide:hover{
+    box-shadow: 2px 5px 8px 8px rgb(228, 227, 227);
+    cursor: grab;
+}
+.swiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+  }
+
+
+/* Section 6*/
+.Sec-06{
+    margin-top: 40px;
+    background-color: rgba(196, 194, 194,0.2);
+}
+.Sec-06 .container-lg .row{
+    padding: 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row .numb{
+    flex: 25%;
+    margin-top: 30px;
+}
+.row .numb .title{
+    color: #2A74ED;
+    font-weight: 400;
+    font-size: 30px;
+}
+.row .numb .title span{
+    padding: 0px;
+    margin-bottom: 8px;
+    color: #2A74ED;
+    font-weight: 400;
+    font-size: 30px;
+}
+.row .numb p{
+    padding: 0px;
+    margin: 10px 0px;
+    color: #999;
+}
+
+/* Section 7*/
+.Sec-07{
+    margin: 50px 0px;
+
+}
+.Sec-07 .title{
+    font-weight: 350;
+    font-size: 2.25rem;
+}
+.Sec-07 .subtitle{
+    color: #999;
+    font-size: 16px;
+    font-weight: 400;
+}
+.Sec-07 .subtitle a{
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+.Sec-07 .subtitle a:hover{
+    color: #262626;
+}
+
+/*Testominal*/
+.swiper2{
+    margin: 60px auto;
+    height: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.swiper2 .swiper-slide:hover{
+    /* box-shadow: 2px 5px 8px 8px rgb(228, 227, 227); */
+    cursor: grab;
+}
+
+.swiper2 p{
+    color: #999;
+}
+
+.swiper2 .title h5{
+    font-weight: 400;
+}
+
+.swiper2 .title p{
+    font-size: 17px;
+}
+
+.swiper2 .swiper-slide{
+    max-height: 300px;
+    width: 40%;
+    margin: 0px 15px;
+    background-color: #f6f9ff;
+    overflow: hidden;
+    transition: border 0.3s ease;
+    border-bottom: 2px solid white;
+    
+}
+
+.swiper2 .swiper-slide:hover{
+    border-bottom: 2px solid #2A74ED;
+    box-shadow: none;
+}
+.description p{
+    margin-top: 1.25rem !important;
+}
+.rating i{
+    color: #f7ce29;
+}
+
+
+/*Section 08 */
+.Sec-08{
+    background-color: rgba(196, 194, 194,0.2);
+    padding-top: 70px;
+}
+.Sec-08 .heading h1{
+    font-weight: 350;
+}
+.Sec-08 .heading p{
+    font-size: 1.0rem;
+    color: #999;
+}
+
+
+/*Section 08 Swiper*/
+.swiper3{
+    margin-top: 60px;
+    margin-bottom: 0px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.swiper3 .swiper-slide{
+    height: 400px;
+    width: 60%;
+    margin: 0px 50px;
+    overflow: hidden;
+    transition: all 0.7s ease-in-out;
+}
+.swiper3 .swiper-slide:hover{
+    box-shadow: 2px 5px 8px 8px rgb(228, 227, 227);
+    cursor: grab;
+    transform: scale(1.01);
+}
+.swiper3 .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+
+/*Footer*/
+.Sec-footer{
+    width: 100%;
+}
+.Sec-footer .contiainer-fluid{
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.Sec-footer .row{
+   padding-top: 50px;
+   color: #eeeeee;
+}
+.footer-subtitle{
+    font-size: 1.4rem;
+}
+.footer-heading{
+    font-weight: 350;
+    font-size: 3rem;
+}
+
+
+     /* Media Query For Large Size Screen*/
+
+@media screen and (max-width:992px){
+
+     /*   Section   1 */
+    
+     
+
+    .Sec-01-Content p{
+        margin-bottom: 0.5rem !important;
+    }
+
+
+     /*   Section  2  */
+
+    .Sec-02{
+        width: 100%;
+        background-color:#f6f9ff ;
+        height: auto;
+        margin: 0 auto 0;
+    }
+    .Sec-02 .text-sec{
+        padding-top: 50px;
+    }
+    .Sec-02 .slider-sec{
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .Sec-02 .slider-sec .sec1, .sec2, .sec3{
+        flex: 90%;
+        max-width: 90%;
+    }
+    .Sec-02 .slider-sec .img{
+        width: auto;
+    }
+    .Sec-02 .slider-sec p{
+        margin-bottom: 2rem;
+    }
+
+
+     /*   Section   4 */
+
+    .Sec-04 .f-box{
+        height: 300px;
+        
+    }
+    .Sec-04 .f-box .box{
+        padding-top: 40px !important;
+        padding-bottom: 0px !important;
+    }
+
+
+     /*   Section   5 */
+
+    .Sec-05 .row h1{
+        font-weight: 350;
+    }
+    
+
+
+     /*   Section   6 */
+
+    .Sec-06 .row .numb{
+            flex: 50%;
+            margin: 30px 0px;
+    }
+    .Sec-06 .row .numb .title{
+        color: #2A74ED;
+        font-weight: 350;
+        font-size: 40px;
+    }
+    .row .numb .title span{
+        color: #2A74ED;
+        font-weight: 350;
+        font-size: 40px;
+    }
+
+     /*   Section   8 */
+
+    .Sec-08 .heading h1{
+        font-size: 40px;
+    }
+    
+}
+
+
+/* Media Query For Medium Size Screen*/
+
+@media screen and (max-width:768px){
+
+     /*   Section   1 */
+    .Sec-01-Content{
+        padding-top: 180px;
+        margin-bottom: 64px;
+    }
+    .Sec-01-Content .heading{
+        font-size: 34px ;
+
+    }
+
+     /*   Section   2 */
+     .Sec-02 .text-sec{
+        padding-top: 20px;
+     }
+     .Sec-02 .text-sec .subtitle{
+        margin-top: 10px ;
+     }
+    .Sec-02 .title{
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+    .Sec-02 .slider-sec p{
+        color: #999;
+    }
+   
+
+
+     /*   Section  3  */
+
+    .Sec-03 .row h1{
+        font-size :2.5rem;
+        font-weight: 350;
+    }
+    .Sec-03 .row h1 span{
+        font-weight: 400;
+    }
+
+    .Sec-03 .box .design-1{
+        width: 95%;
+    }
+
+    .Sec-03 .design-1 img{
+        width: 100%;
+    }
+    .Sec-03 .box p{
+        font-size: 20px;
+    }
+
+
+    /*   Section  4  */
+    
+    .Sec-04{
+        padding-bottom: 30px ;
+    }
+    .Sec-04 .row-1{
+        margin-bottom: 0px !important;
+    }
+
+    .Sec-04 .row-1 ul li{
+        color: #999;
+    }
+
+    .Sec-04 .row-2{
+        margin-top: 0px !important;
+    }
+    .Sec-04 .row h1{
+        font-size: 2.5rem;
+    }
+    .Sec-04 .row .box{
+        width: 100%;
+        padding-left: 40px !important;
+    }
+    .Sec-04 .row .box p{
+        font-size: 1.1rem;
+    }
+
+    
+    /*   Section  5  */
+    .Sec-05{
+        margin-top: 30px;
+    }
+    .Sec-05 .row h1{
+        font-size: 2.5rem ;
+    }
+    .Sec-05 .row h1 span{
+        font-weight: 400;
+    }
+
+
+    /* Swiper */
+    .swiper{
+       margin-bottom: 20px;
+        height: 420px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .swiper .swiper-slide{
+        width: auto !important;
+        overflow: hidden;
+        transition: all 0.5s ease;
+    }
+
+    .swiper .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+      }
+
+    
+
+     /*   Section  6  */
+
+
+     .Sec-06 .row .numb{
+        padding-bottom: 20px;
+     }
+     .Sec-06 .row .numb{
+        flex: 100%;
+        margin: 10px 0px;
+    }
+
+
+     /*   Section  7  */
+     .Sec-07{
+        margin-top: 25px;
+        margin-bottom: 0px;
+     }
+     .Sec-07 .row .title{
+        font-size: 2.6rem ;
+    }
+    /*Testominal*/
+    .swiper2{
+        height: 300px;
+        margin: 0px;
+    }
+
+    .swiper2 .swiper-slide{
+        height: 80%;
+        width: 100% !important; 
+        margin: 0%;       
+        /* border-bottom: 2px solid white; */
+    }
+
+    .swiper2 .swiper-slide:hover{
+        /* border-bottom: 2px solid #2A74ED; */
+        box-shadow: none;
+    }
+    .swiper2 .swiper-slide h5 {
+        font-size: 1.15rem;
+    }
+    
+    .swiper2 .swiper-slide p{
+        font-size: 1rem;
+    }
+    .description p{
+        margin-top: 0.8rem !important;
+    }
+    .rating i{
+        color: #f7ce29;
+    }
+
+
+    /*   Section  8  */
+
+    .Sec-08 .heading h1{
+        font-weight: 350;
+    }
+
+    /* Swiper 3*/
+    .swiper3 .swiper-slide{
+        height: 400px;
+        width: 100%;
+        margin: 0px;
+        overflow: hidden;
+        transition: all 0.7s ease-in-out;
+    }
+
+
+    /*   Section  Footer  */
+
+    .Sec-footer .footer-heading{
+        font-size: 2.8rem;
+    }
+
+    .footer-subtitle{
+        font-size: 1.3rem;
+    }
+
+    .Sec-footer .button-group{
+        margin-top: 25px !important;
+    }
+
+}
+
+/* Media Query For Small Size Screen*/
+
+@media screen and (max-width:576px){
+
+    /*   Section 1  */
+    .Sec-01-Content{
+        padding-top: 170px;
+        margin-bottom: 60px;
+    }
+    .Sec-01-Content .heading{
+        font-size: 50px;
+    }
+    .Sec-01-Content .heading span{
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .Sec-01-Content .subtitle{
+        font-weight: 400;
+    }
+
+
+    .Sec-02 .text-sec{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .Sec-02 .text-sec .title{
+        font-weight: 450;
+        font-size: 2.4rem ;
+    }
+    .Sec-02 .text-sec .subtitle{
+        padding: 0;
+        margin-top: 0;
+    }
+
+
+    .Sec-03{
+        margin-top: 0;
+    }
+
+
+    .Sec-04 .row-1 h1{
+        font-size: 2.6rem;
+    }
+    .Sec-04 .row-1 ul{
+        flex-direction: column;
+    }
+    .Sec-04 .row-1 ul li{
+        text-align: center;
+    }
+
+
+    .Sec-05 .row h1{
+        font-size: 2.6rem ;
+        font-weight: 300 !important;
+    }
+
+    
+    .Sec-07 .subtitle{
+        font-size: 17px;
+    }
+    .Sec-07 .emp-slider{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .swiper2 .description p{
+        font-size: 1rem !important;
+    }
+
+    .Sec-08 .heading h1{
+        font-size: 43px;
+    }
+
+    .Sec-08 .heading p{
+        line-height: 1.6;
+        font-size: 18px;
+    }
+    
+
+    /* Swiper 3*/
+    .swiper3 .swiper-slide{
+        height: 400px;
+        width: 100%;
+        margin: 0px 20px;
+        overflow: hidden;
+        transition: all 0.7s ease-in-out;
+    }
+  
+    .swiper3 .swiper-slide img{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+
+    .Sec-footer .footer-subtitle{
+        font-size: 1.2rem;
+    }
+
+    .Sec-footer .footer-heading{
+        font-size: 2.3rem;
+    }
+
+    .Sec-footer .button-group{
+        margin-top: 27px !important;
+    }
+
+    .Sec-footer .button-group a{
+        padding: 15px 25px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Sec-04 .row-2 .f-box h5{
+        margin-bottom: 0px !important;
+    }
+    .Sec-04 .row-2 .f-box p{
+        font-size: 1rem;
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+
+    .swiper .swiper-slide{
+        height: 360px;
+        width: 100%;
+        margin: 0px 25px;
+        overflow: hidden;
+        transition: all 0.5s ease;
+    }
+    .swiper .swiper-slide img {
+        width: 100%;
+        height: 100%;
+      }
+
+    .swiper2 .description p{
+        font-size: 0.8rem !important;
+    }
+
+    /* Swiper 3*/
+    .swiper3 .swiper-slide{
+        height: 360px;
+        width: 100%;
+        margin: 0px 10px;
+        overflow: hidden;
+        transition: all 0.7s ease-in-out;
+    }
+
+    .swiper3 .swiper-slide img{
+        height: 100%;
+        width: auto;
+        overflow: hidden;
+    }
+    .Sec-footer .button-group {
+        margin-top: 10px !important;
+    }
+
+}
